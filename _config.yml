@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "de-DE"
-title                    : "Mars' Site"
+title                    : "HOME"
 title_separator          : "-"
 name                     : &name "Mars"
 description              : &description "Mars' github page"
@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Roboticist"
   location         : "Munich"
-  employer         : "Technical University of Munich(TUM)"
+  employer         : "Technical University of Munich"
   uri              : # URL
   email            : #"none@example.org" 
 
@@ -213,10 +213,10 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: False
+    output: true
     permalink: /:collection/:path/
   publications:
-    output: False
+    output: true
     permalink: /:collection/:path/
   portfolio:
     output: true
