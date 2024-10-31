@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "de-DE"
-title                    : " Hwasung Seo/ Mars' site"
+title                    : "Mars' Site"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Mars"
+description              : &description "Mars' github page"
 url                      : https://mars-hss.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mars-hss.github.io"
@@ -22,11 +22,11 @@ repository               : "mars-hss.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Mars Seo"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Roboticist"
   location         : "Munich"
-  employer         : "TUM"
+  employer         : "Technical University of Munich(TUM)"
   uri              : # URL
   email            : #"none@example.org" 
 
@@ -49,7 +49,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -213,10 +213,10 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: False
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: False
     permalink: /:collection/:path/
   portfolio:
     output: true
