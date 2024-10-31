@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Mars' github page"
+title: "Mars' Page"
 author_profile: true
 redirect_from: 
   - /about/
