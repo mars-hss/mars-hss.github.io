@@ -1,8 +1,8 @@
 ---
 title: "State Estimation"
-collection: stuides
+collection: studies
 type: "Robotics"
-permalink: /stuides/state_estimation
+permalink: /studies/state_estimation
 tags:
     - state estimation
     - filter
