@@ -1,6 +1,6 @@
 ---
 title: "State Estimation"
-collection: portfolio
+collection: study
 excerpt: "State Estimation for legged systems"
 permalink: /study/state-estimation
 tags:
