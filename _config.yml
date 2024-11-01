@@ -223,7 +223,7 @@ collections:
     permalink: /:collection/:path/
   study:
     ouput: true
-    permalink: /:collection/:name/
+    permalink: /:collection/:path/
   # talks:
   #   output: False
   #   permalink: /:collection/:path/
