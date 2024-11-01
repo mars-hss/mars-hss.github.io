@@ -11,8 +11,8 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
-  - title: "Study"
-    url: /study/
+  # - title: "Study"
+  #   url: /study/
 
   #- title: "Talks"
   #  url: /talks/
