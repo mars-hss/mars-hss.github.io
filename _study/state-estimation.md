@@ -2,7 +2,7 @@
 title: "State Estimation"
 collection: study
 excerpt: "State Estimation for legged systems"
-permalink: /study/robotics/state-estimation
+permalink: /study/state-estimation
 tags:
     - state estimation
 ---
