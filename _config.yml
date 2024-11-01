@@ -249,15 +249,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _study
-  - scope:
-      path: ""
-      type: study
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _teaching
   # - scope:
   #     path: ""
@@ -285,6 +276,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _study
+  - scope:
+      path: ""
+      type: study
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _talks
   # - scope:
   #     path: ""
