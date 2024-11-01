@@ -10,7 +10,10 @@ main:
   
   - title: "Portfolio"
     url: /portfolio/
-  
+
+  - title: "Studies"
+   url: /studies/
+
   #- title: "Talks"
   #  url: /talks/
     
