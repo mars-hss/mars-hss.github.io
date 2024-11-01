@@ -2,9 +2,9 @@
 title: "State Estimation"
 collection: study
 excerpt: "State Estimation for legged systems"
-#permalink: /study/state-estimation
-# tags:
-#     - state estimation
+permalink: /study/robotics/state-estimation
+tags:
+    - state estimation
 ---
 
 ### 1. Linear Kalman Filter
