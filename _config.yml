@@ -221,9 +221,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  # study:
-  #   ouput: true
-  #   permalink: /:collection/:path/
+  study:
+    ouput: true
+    permalink: /:collection/:path/
   # talks:
   #   output: False
   #   permalink: /:collection/:path/
@@ -242,13 +242,14 @@ defaults:
       comments: true
       share: true
       related: true
+
   # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+  # - scope:
+  #     path: ""
+  #     type: pages
+  #   values:
+  #     layout: single
+  #     author_profile: true
   # _teaching
   # - scope:
   #     path: ""
@@ -267,6 +268,16 @@ defaults:
   #     author_profile: true
   #     share: true
   #     comments: true
+  
+  # _study
+  - scope:
+      path: ""
+      type: study
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _portfolio
   - scope:
       path: ""
@@ -276,15 +287,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _study
-  # - scope:
-  #     path: ""
-  #     type: study
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comments: true
+  
   # _talks
   # - scope:
   #     path: ""
