@@ -22,7 +22,7 @@ repository               : "mars-hss.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Mars Seo"
+  name             : "Mars"
   pronouns         : # example: "she/her"  
   bio              : "Roboticist"
   location         : "Munich"
@@ -212,18 +212,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  # teaching:
-  #   output: False
-  #   permalink: /:collection/:path/
-  # publications:
-  #   output: False
-  #   permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
-  # talks:
-  #   output: False
-  #   permalink: /:collection/:path/
   study:
     ouput: true
     permalink: /:collection/:path/
@@ -243,12 +234,12 @@ defaults:
       share: true
       related: true
   # _pages
-  # - scope:
-  #     path: ""
-  #     type: pages
-  #   values:
-  #     layout: single
-  #     author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
   # _teaching
   # - scope:
   #     path: ""
