@@ -8,8 +8,8 @@ main:
   - title: "Blog"
     url: /blog/
 
-  - title: "Study"
-    url: /study/
+  - title: "Test"
+    url: /test/
   
   - title: "Portfolio"
     url: /portfolio/
