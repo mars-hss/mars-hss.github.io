@@ -221,12 +221,12 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  study:
-    ouput: true
-    permalink: /:collection/:path/
   # talks:
   #   output: False
   #   permalink: /:collection/:path/
+  study:
+    ouput: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -242,7 +242,6 @@ defaults:
       comments: true
       share: true
       related: true
-
   # _pages
   # - scope:
   #     path: ""
@@ -268,16 +267,6 @@ defaults:
   #     author_profile: true
   #     share: true
   #     comments: true
-  
-  # _study
-  - scope:
-      path: ""
-      type: study
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _portfolio
   - scope:
       path: ""
@@ -287,7 +276,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  
+  # _study
+  - scope:
+      path: ""
+      type: study
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _talks
   # - scope:
   #     path: ""
