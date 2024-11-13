@@ -2,7 +2,6 @@
 layout: archive
 title: "Robotics"
 permalink: /study/
-collection: study
 author_profile: true
 ---
 
