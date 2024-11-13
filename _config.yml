@@ -215,7 +215,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  study:
+  studies:
     ouput: true
     permalink: /:collection/:path/
 
@@ -261,7 +261,7 @@ defaults:
   # _study
   - scope:
       path: ""
-      type: study
+      type: studies
     values:
       layout: single
       author_profile: true
