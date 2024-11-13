@@ -8,10 +8,12 @@ author_profile: true
 {% include base_path %}
 
 
-[Fundamental](#fundamental)
+[![Fundatmental](https://img.shields.io/badge/Fundamental-EBEBEB?style=for-the-badge)](#fundamental)
+
+<br/>
 <br/>
 <br/>
 
 ## Fundamental
 
-[Kinematics](_study/coming_sson.md)
+[Kinematics](./coming_soon.md)
