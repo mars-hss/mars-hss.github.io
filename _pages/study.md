@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Study"
+title: "Robotics"
 permalink: /study/
 author_profile: true
 ---
@@ -8,6 +8,10 @@ author_profile: true
 {% include base_path %}
 
 
+[Fundamental](#fundamental)
+<br/>
+<br/>
 
-# <div style="background-color:#EBEBEB; color:blak;font-weight:bold; text-align:left; vertical-align: middle; padding:10px 5px;"> Robotics </div>
+## Fundamental
 
+[Kinematics](_study/coming_sson.md)
