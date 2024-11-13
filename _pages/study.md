@@ -8,12 +8,30 @@ author_profile: true
 {% include base_path %}
 
 
-[![Fundatmental](https://img.shields.io/badge/Fundamental-EBEBEB?style=for-the-badge)](#fundamental)
+[![Fundatmental](https://img.shields.io/badge/Fundamental-EBEBEB?style=flat)](#fundamental)&nbsp;&nbsp;&nbsp;&nbsp;[![Legged System](https://img.shields.io/badge/Lagged_System-EBEBEB?style=flat)](#fundamental)&nbsp;&nbsp;&nbsp;&nbsp;[![Others](https://img.shields.io/badge/Others-EBEBEB?style=flat)](#fundamental)
 
 <br/>
 <br/>
 <br/>
 
-## Fundamental
+# Fundamental
+[Forward Kinematics](./coming_soon.md)   
+[Inverse Kinematics](./coming_soon.md)   
+[Forward Dynamics](./coming_soon.md)   
+[Inverse Dynamics](./coming_soon.md)   
 
-[Kinematics](./coming_soon.md)
+<br/>
+<br/>
+<br/>
+<br/>
+
+# Legged System
+[Dynamics](./coming_soon.md)   
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+# Others
+[State Estimation](./coming_soon.md)   
