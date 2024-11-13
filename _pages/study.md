@@ -1,13 +1,10 @@
 ---
 layout: archive
-layout: collection
 title: "Robotics"
 permalink: /study/
 collection: study
+author_profile: true
 ---
-
-{% include base_path %}
-
 
 [![Fundatmental](https://img.shields.io/badge/Fundamental-EBEBEB?style=flat-square)](#fundamental)&nbsp;&nbsp;&nbsp;&nbsp;[![Legged System](https://img.shields.io/badge/Lagged_System-EBEBEB?style=flat-square)](#legged-system)&nbsp;&nbsp;&nbsp;&nbsp;[![Others](https://img.shields.io/badge/Others-EBEBEB?style=flat-square)](#others)
 
