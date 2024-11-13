@@ -5,7 +5,7 @@ permalink: /study/
 author_profile: False
 ---
 
-## [![Fundatmental](https://img.shields.io/badge/Fundamental-EBEBEB?style=flat-square)](#fundamental)&nbsp;&nbsp;&nbsp;&nbsp;[![Legged System](https://img.shields.io/badge/Lagged_System-EBEBEB?style=flat-square)](#legged-system)&nbsp;&nbsp;&nbsp;&nbsp;[![Others](https://img.shields.io/badge/Others-EBEBEB?style=flat-square)](#others)
+[![Fundatmental](https://img.shields.io/badge/Fundamental-EBEBEB?style=for-the-badge)](#fundamental)&nbsp;&nbsp;&nbsp;[![Legged System](https://img.shields.io/badge/Lagged_System-EBEBEB?style=for-the-badge)](#legged-system)&nbsp;&nbsp;&nbsp;[![Others](https://img.shields.io/badge/Others-EBEBEB?style=for-the-badge)](#others)
 
 <br/>
 <br/>
