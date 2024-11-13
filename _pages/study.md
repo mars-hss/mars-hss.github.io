@@ -13,7 +13,7 @@ author_profile: true
 
 # Fundamental
 #### [Forward Kinematics](./coming_soon.md)   
-#### [Inverse Kinematics](./coming_soon.md)   
+#### [Inverse Kinematics](./test1.md)   
 #### [Forward Dynamics](./coming_soon.md)   
 #### [Inverse Dynamics](./coming_soon.md)
 ---   

@@ -1,6 +1,6 @@
 ---
-title: "Coming Soon"
-excerpt: "I will update study"
+title: "test"
+excerpt: "study test"
 collection: study
 ---
 
