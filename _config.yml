@@ -12,7 +12,7 @@ title                    : "HOME"
 title_separator          : "-"
 name                     : &name "Mars"
 description              : &description "Mars' page"
-url                      : https://mars-hss.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://mars-hss.github.io # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mars-hss/mars-hss.github.io"
 
@@ -215,7 +215,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  studies:
+  study:
     ouput: true
     permalink: /:collection/:path/
 
@@ -261,7 +261,7 @@ defaults:
   # _study
   - scope:
       path: ""
-      type: studies
+      type: study
     values:
       layout: single
       author_profile: true

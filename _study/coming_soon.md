@@ -1,6 +1,6 @@
 ---
 title: "Coming Soon"
-collection: studies
+collection: study
 ---
 
 Study will be here soon.
