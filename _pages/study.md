@@ -2,7 +2,7 @@
 layout: archive
 title: "Robotics"
 permalink: /study/
-author_profile: False
+author_profile: true
 ---
 
 [![Fundatmental](https://img.shields.io/badge/Fundamental-EBEBEB?style=for-the-badge)](#fundamental)&nbsp;&nbsp;&nbsp;[![Legged System](https://img.shields.io/badge/Lagged_System-EBEBEB?style=for-the-badge)](#legged-system)&nbsp;&nbsp;&nbsp;[![Others](https://img.shields.io/badge/Others-EBEBEB?style=for-the-badge)](#others)
@@ -12,10 +12,12 @@ author_profile: False
 <br/>
 
 ## Fundamental
-#### [Forward Kinematics](./coming_soon)   
-#### [Inverse Kinematics](./test1)   
-#### [Forward Dynamics](./coming_soon)   
-#### [Inverse Dynamics](./coming_soon)
+#### [Forward Kinematics](./forward_kinematics)   
+<!-- #### [Inverse Kinematics](./test1)    -->
+<!-- #### [Forward Dynamics](./coming_soon)    -->
+<!-- #### [Inverse Dynamics](./coming_soon) -->
+#### [State Estimation](./state_estimation)   
+<!-- #### [State Estimation](./coming_soon)    -->
 ---   
 
 <br/>
@@ -32,5 +34,5 @@ author_profile: False
 <br/>
 
 ## Others
-#### [State Estimation](./coming_soon)   
+
 ---

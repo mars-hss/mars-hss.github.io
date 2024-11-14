@@ -263,7 +263,7 @@ defaults:
       type: study
     values:
       layout: single
-      author_profile: False
+      author_profile: true
       share: true
       comments: true
   # _teaching

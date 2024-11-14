@@ -1,7 +1,0 @@
----
-title: "Coming Soon"
-excerpt: "I will update study"
-collection: study
----
-
-Study will be here soon.
