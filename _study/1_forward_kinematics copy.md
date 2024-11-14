@@ -1,7 +1,7 @@
 ---
 title: "Forward Kinematics"
 excerpt: ""
-permalink: /forward_kinematics/
+permalink: forward_kinematics/
 collection: study
 ---
 
