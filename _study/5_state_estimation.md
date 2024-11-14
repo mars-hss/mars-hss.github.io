@@ -1,8 +1,8 @@
 ---
 title: "State Estimation"
 excerpt: ""
-collection: study
 permalink: /study/state_estimation/
+collection: study
 ---
 
 ### 1. Linear Kalman Filter
