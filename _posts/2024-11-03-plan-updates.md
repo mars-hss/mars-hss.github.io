@@ -1,9 +1,9 @@
 ---
-title: 'Plan of updating stuff'
+title: 'A plan of updating stuff'
 date: 2024-11-03
 permalink: /blog/plan
-#tags:
-#   - later
+tags:
+  - Project
 ---
 
 This is a plan of updating for portfolio tabs.
