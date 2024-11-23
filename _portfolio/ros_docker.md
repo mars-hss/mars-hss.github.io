@@ -2,6 +2,7 @@
 title: "ros_docker"
 excerpt: "Bash script for ROS with docker"
 header:
+    image: /images/ros_docker_help.png
     teaser: images/ros_docker_help.png
 permalink: /portfolio/ros_docker/
 collection: portfolio
