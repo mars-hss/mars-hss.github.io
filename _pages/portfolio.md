@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-<h3> Project from courses you can check <a href="https://mars-hss.github.io/course_project">here</a> </h3>
+### Project from courses you can check [here](https://mars-hss.github.io/course_project)
