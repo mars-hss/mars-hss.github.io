@@ -7,4 +7,5 @@ entries_layout: grid
 classes: wide
 ---
 
-### Project from courses you can check [here](https://mars-hss.github.io/course_project)
+<!-- ## Project from courses you can check [here](https://mars-hss.github.io/course_project) -->
+<br/><br/><br/>
