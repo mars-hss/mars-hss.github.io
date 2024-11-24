@@ -321,19 +321,21 @@ timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_
 
 # Plugins
 plugins:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-include-cache
 
 # Mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-include-cache
 
 
 # Archives
