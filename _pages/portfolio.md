@@ -8,4 +8,4 @@ classes: wide
 ---
 
 <!-- ## Project from courses you can check [here](https://mars-hss.github.io/course_project) -->
-<br/><br/><br/>
+<br/><br/>
