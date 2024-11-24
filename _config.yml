@@ -10,7 +10,7 @@
 locale                   : "de-DE"
 title                    : "HOME"
 title_separator          : "-"
-subtitle                 : ""
+subtitle                 : " "
 name                     : &name "Mars"
 description              : &description "Mars' page"
 url                      : https://mars-hss.github.io # the base hostname & protocol for your site
