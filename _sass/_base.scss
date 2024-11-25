@@ -109,6 +109,12 @@ blockquote {
   }
 }
 
+/* buttons */
+
+button:focus {
+  @extend %tab-focus;
+}
+
 /* links */
 
 a {
