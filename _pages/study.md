@@ -7,15 +7,14 @@ author_profile: true
 
 [![Fundatmental](https://img.shields.io/badge/Fundamental-EBEBEB?style=for-the-badge)](#fundamental)&nbsp;&nbsp;&nbsp;[![Legged System](https://img.shields.io/badge/Lagged_System-EBEBEB?style=for-the-badge)](#legged-system)&nbsp;&nbsp;&nbsp;[![Others](https://img.shields.io/badge/Others-EBEBEB?style=for-the-badge)](#others)
 
-<a href="#others" class="btn btn--primary">Test</a>  
-[Fundatmental](#fundatmental){: .btn .btn--inverse}
-
 <br/>
 <br/>
 <br/>
 
 ## Fundamental
-#### [Forward Kinematics](./forward_kinematics)   
+- #### [Forward Kinematics](./forward_kinematics)   
+    <!-- - #### [Denavit–Hartenberg(DH) parameters](./forward_kinematics)   
+    - #### [Product of exponentials(POE) Formula](./forward_kinematics)    -->
 <!-- #### [Inverse Kinematics](./test1)    -->
 <!-- #### [Forward Dynamics](./coming_soon)    -->
 <!-- #### [Inverse Dynamics](./coming_soon) -->
