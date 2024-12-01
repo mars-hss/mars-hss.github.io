@@ -13,12 +13,12 @@ author_profile: true
 
 ## Fundamental
 - #### [Forward Kinematics](./forward_kinematics)   
-    <!-- - #### [Denavit–Hartenberg(DH) parameters](./forward_kinematics)   
-    - #### [Product of exponentials(POE) Formula](./forward_kinematics)    -->
+    <!-- - #### [Denavit–Hartenberg(DH) parameters](./forward_kinematics)   -->
+     <!-- - #### [Product of exponentials(POE) Formula](./forward_kinematics)  -->
 <!-- #### [Inverse Kinematics](./test1)    -->
 <!-- #### [Forward Dynamics](./coming_soon)    -->
 <!-- #### [Inverse Dynamics](./coming_soon) -->
-#### [State Estimation](./state_estimation)   
+- #### [State Estimation](./state_estimation)   
 <!-- #### [State Estimation](./coming_soon)    -->
 ---   
 
@@ -28,7 +28,7 @@ author_profile: true
 <br/>
 
 ## Legged System
-#### [Dynamics](./coming_soon)   
+- #### [Dynamics](./coming_soon)   
 ---
 <br/>
 <br/>

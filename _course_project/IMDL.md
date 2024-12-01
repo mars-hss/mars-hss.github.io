@@ -11,5 +11,4 @@ sidebar:
     - title: "IMDL2"
       text: ""
 ---
-
-### Intelligent Machine Design Lab
+## Intelligent Machine Design Lab
