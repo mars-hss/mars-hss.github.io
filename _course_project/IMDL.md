@@ -1,8 +1,8 @@
 ---
-title: "Intelligent Machine Design Lab"
+title: "IMDL"
 excerpt: ""
 header:
-    teaser: images/ros_docker_help.png
+    teaser: images/imdl2.jpg
 permalink: /course_project/imdl
 collection: course_project
 sidebar:
@@ -12,3 +12,4 @@ sidebar:
       text: ""
 ---
 
+### Intelligent Machine Design Lab
