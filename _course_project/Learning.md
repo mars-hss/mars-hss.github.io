@@ -9,7 +9,6 @@ sidebar:
     - title: "Overal Learning Method"
       text: "Biologically-Inspired Learning for Humanoid Robots"
     - title: "Reinforcement Learning"
-      text: "Approximate Dynamic Programming and Reinforcement Learning"
-      text: "Applied Reinforcement Learning"
+      text: "Approximate Dynamic Programming and Reinforcement Learning\nApplied Reinforcement Learning"
 ---
 

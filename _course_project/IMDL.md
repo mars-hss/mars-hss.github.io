@@ -2,7 +2,7 @@
 title: "IMDL"
 excerpt: ""
 header:
-    teaser: images/imdll/imdl2.jpg
+    teaser: images/imdl/imdl2.jpg
 permalink: /course_project/imdl
 collection: course_project
 sidebar:
