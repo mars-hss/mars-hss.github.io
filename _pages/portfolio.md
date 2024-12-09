@@ -11,4 +11,5 @@ classes: wide
 <!-- <br/><br/> -->
 
 <!-- {% course_project.html %} -->
-<include src="./course_project.html"></include>
+<!-- <include src="./course_project.html"></include> -->
+{% ./course_project.html %}
