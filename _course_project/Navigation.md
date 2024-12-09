@@ -2,7 +2,7 @@
 title: "Navigation"
 excerpt: ""
 header:
-    teaser: images/ros_docker_help.png
+    teaser: images/navigation/tas_main.jpg
 permalink: /course_project/navigation
 collection: course_project
 sidebar:

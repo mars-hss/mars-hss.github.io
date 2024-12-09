@@ -2,7 +2,7 @@
 title: "Manipulation"
 excerpt: ""
 header:
-    teaser: images/ros_docker_help.png
+    teaser: images/manipulation/arl_panda.gif
 permalink: /course_project/manipulation
 collection: course_project
 sidebar:
