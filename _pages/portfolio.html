@@ -8,7 +8,10 @@ classes: wide
 ---
 
 <h2>Course Project</h2>
-{% include site.course-project %}
+{% for post in site.course-project %}
+  {% assign include.type = grid %}
+  {% include archive-single.html %}
+{% endfor %}
 
 
 <h2>Private Project</h2>
