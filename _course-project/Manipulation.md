@@ -3,8 +3,8 @@ title: "Manipulation"
 excerpt: ""
 header:
     teaser: images/manipulation/arl_panda.gif
-permalink: /course_project/manipulation
-collection: course_project
+permalink: /course-project/manipulation
+collection: course-project
 sidebar:
     - title: "Advanced Robot Control and Learning"
       text: ""

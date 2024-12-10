@@ -3,8 +3,8 @@ title: "IMDL"
 excerpt: ""
 header:
     teaser: images/imdl/imdl2.jpg
-permalink: /course_project/imdl
-collection: course_project
+permalink: /course-project/imdl
+collection: course-project
 sidebar:
     - title: "IMDL1"
       text: ""

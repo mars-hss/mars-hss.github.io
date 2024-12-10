@@ -3,8 +3,8 @@ title: "Navigation"
 excerpt: ""
 header:
     teaser: images/navigation/tas_main.jpg
-permalink: /course_project/navigation
-collection: course_project
+permalink: /course-project/navigation
+collection: course-project
 sidebar:
     - title: "Introduction to Autonomous System"
       text: ""

@@ -230,7 +230,7 @@ collections:
   study:
     output: true
     permalink: /:collection/:path/
-  course_project:
+  course-project:
     output: true
     permalink: /:collection/:path/
   # teaching:
@@ -281,10 +281,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _course_project
+  # _course-project
   - scope:
       path: ""
-      type: course_project
+      type: course-project
     values:
       layout: single
       author_profile: false
