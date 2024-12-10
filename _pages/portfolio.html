@@ -8,7 +8,9 @@ classes: wide
 ---
 
 <h2>Course Project</h2>
-{% include site.course-project %}
+{% for post in site.course-project %}
+  {% include archive-single.html include.type=grid %}
+{% endfor %}
 
 <br/>
 
