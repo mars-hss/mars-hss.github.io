@@ -11,6 +11,7 @@ classes: wide
 <!-- <br/><br/> -->
 
 <!-- {% course_project.html %} -->
-<embed type="text/html" src="course_project.html" width="500" height="200">
-
-
+<h2>Course Project</h2>
+{% for post in site.course_project %}
+  {% include archive-single.html %}
+{% endfor %}
