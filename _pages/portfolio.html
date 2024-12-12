@@ -1,20 +1,22 @@
 ---
 title: "Portfolio"
-layout: archive
+layout: collection
 permalink: /portfolio/
 collection: portfolio
+entries_layout: grid
 classes: wide
 ---
 <h2>Course Project</h2>
+<br>
 {% for post in site.course-project %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
 
-<br/>
-<br/>
-<br/>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <h2>Private Project</h2> 
-{% for post in site.portfolio %}
-  {% include archive-single.html type="grid" %}
-{% endfor %}
+
