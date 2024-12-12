@@ -6,7 +6,9 @@ collection: course-project
 entries_layout: grid
 classes: wide
 ---
-
+{% for post in collection.portfolio %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
 
 <!-- <br/>
 <h2>Course Project</h2>
