@@ -7,8 +7,8 @@ permalink: /course-project/imdl
 collection: course-project
 sidebar:
     - title: "IMDL1"
-      text: ""
+      text: "Basic sensors and mechatronics"
     - title: "IMDL2"
-      text: ""
+      text: "BLDC, EtherCAT, and PCB"
 ---
 ## Intelligent Machine Design Lab
