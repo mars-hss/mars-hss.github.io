@@ -6,9 +6,9 @@ header:
 permalink: /course-project/manipulation
 collection: course-project
 sidebar:
-    - title: "Advanced Robot Control and Learning"
-      text: ""
-    - title: "Multi-sensory Based Robot Dynamic manipulation"
-      text: ""
+    - title: "Robothon project"
+      text: "Advanced Robot Control and Learning"
+    - title: "Kinematics and Dynamics"
+      text: "Multi-sensory Based Robot Dynamic manipulation"
 ---
 
