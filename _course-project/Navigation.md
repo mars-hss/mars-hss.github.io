@@ -6,9 +6,9 @@ header:
 permalink: /course-project/navigation
 collection: course-project
 sidebar:
-    - title: "Introduction to Autonomous System"
-      text: ""
-    - title: "Multi-robots Navigation System"
-      text: ""
+    - title: "How to use Navigation Stack"
+      text: "Introduction to Autonomous System"
+    - title: "How to expand nav2 for more robots"
+      text: "Multi-robots Navigation System"
 ---
 
