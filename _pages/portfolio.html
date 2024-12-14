@@ -7,16 +7,15 @@ permalink: /portfolio/
 <!-- entries_layout: grid -->
 classes: wide
 ---
-
-<div class="entries-grid">
-    <h2>Course Project</h2>
+<p><h2>Course Project</h2></p>
+<div class="entries-grid">    
     {% for post in site.course-project %}
         {% include archive-single.html type="grid" %}
     {% endfor %}
 </div>
 
+<p><h2>Private Project</h2></p>
 <div class="entries-grid">
-    <h2>Private Project</h2> 
     {% for post in site.portfolio %}
         {% include archive-single.html type="grid" %}
     {% endfor %}
