@@ -12,5 +12,6 @@ Gemfile.lock
 node_modules
 package-lock.json
 
-# Ignore incomplete markdown
+# Ignore incomplete markdown or html
 hide_*.md
+hide_*.html
