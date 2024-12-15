@@ -12,3 +12,4 @@ sidebar:
       text: "BLDC, EtherCAT, and PCB"
 ---
 ## Intelligent Machine Design Lab
+
