@@ -13,3 +13,4 @@ sidebar:
 ---
 ## Intelligent Machine Design Lab
 
+In this course, we learned 
