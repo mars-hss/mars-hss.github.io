@@ -7,18 +7,14 @@ permalink: /course-project/learning
 collection: course-project
 sidebar:
     - title: "Overal Learning Method"
-      text: "Biologically-Inspired Learning for Humanoid Robots"
+      text: "Biologically-Inspired Learning for Humanoid Robots(BiLHR)"
     - title: "Reinforcement Learning"
-      text: "Applied Reinforcement Learning"
+      text: "Applied Reinforcement Learning(ARL)"
 ---
 
 ## Biologically-Inspired Learning for Humanoid Robots
-<figure>
-  <img src="images/learning/learning.png" alt="Learning with human brain" />
-  <figcaption>From BiLHR slide</figcaption>
-</figure>   
+{% include gallery url="images/learning/learning.png" image_path="images/learning/learning.png" caption="From BiLHR slides" %}   
 Handle three types of learning via human brain.
 - Supervise Learning
 - Unsupervise Learning
 - Reinforcement Learning
-
