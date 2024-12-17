@@ -13,7 +13,7 @@ sidebar:
 ---
 
 ## Biologically-Inspired Learning for Humanoid Robots
-{% include gallery url="images/learning/learning.png" image_path="images/learning/learning.png" caption="From BiLHR slides" %}   
+{% include figure.html url="true" img="images/learning/learning.png" caption="From BiLHR slides" %}   
 Handle three types of learning via human brain.
 - Supervise Learning
 - Unsupervise Learning
