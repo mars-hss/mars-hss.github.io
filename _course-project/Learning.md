@@ -26,5 +26,7 @@ Handle three types of learning via human brain.
 
 ## Reinforcement Learning
 ### Approximate Dynamic Programming and Reinforcement Learning
-
+$$
+Q(s,a) = Q(s,a) + \alpha\big(r(s,a,s') + \gamma^{i}\max_{a}Q(s',a)-Q(s,a)\big)
+$$
 ### Applied Reinforcement Learning
