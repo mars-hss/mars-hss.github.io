@@ -1,13 +1,19 @@
+{% if include.id %}
+  {% assign images = page.[include.id] %}
+{% else %}
+  {% assign images = page.gallery %}
+{% endif %}
+
+{% if images.size == 2 %}
+  {% assign img_layout = 'half' %}
+{% elsif images.size >= 3 %}
+  {% assign img_layout = 'third' %}
+{% else %}
+  {% assign img_layout = '' %}
+{% endif %}
+
 <figure class="{{ include.img_layout }} {{ include.class }}">
-  {% if include.multiple %}
-    {% for img in images %}
-    <a href="{{ img | relative_url }}"
-        {% if img.title %}title="{{ img.title }}"{% endif %}>
-        <img src="{{ img | relative_url }}"
-            alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-    </a>
-    {% endfor %}
-  {% endif %}
+  {% for img in images %}
     {% if include.url %}
     <a href="{{ include.img | relative_url }}"
         {% if img.title %}title="{{ img.title }}"{% endif %}>
@@ -21,4 +27,5 @@
     {% if include.caption %}
       <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
     {% endif %}
+  {% endfor %}
 </figure>
