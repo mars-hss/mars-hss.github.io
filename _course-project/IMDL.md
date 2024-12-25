@@ -10,10 +10,12 @@ sidebar:
       text: "Basic sensors and mechatronics"
     - title: "IMDL2"
       text: "BLDC, EtherCAT, and PCB"
-
-gripper:
-    - img: "images/imdl/gripper_first.png"
-    - img: "images/imdl/gripper.png"
+gallery:
+    - id: "gripper"
+    - url: "images/imdl/gripper_first.png"
+      image_path: "images/imdl/gripper_first.png"
+    - url: "images/imdl/gripper.png"
+      image_path: "images/imdl/gripper.png"
 ---
 ## Intelligent Machine Design Lab
 
@@ -25,5 +27,5 @@ In this course, we learned how to build a robot.
    
 
 ### Design a gripper for a mobile robot
-{% include figure.html multiple='true' id='gripper' %}
+{% include gallery id='gripper' %}
 
