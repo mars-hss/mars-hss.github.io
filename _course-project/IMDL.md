@@ -10,8 +10,7 @@ sidebar:
       text: "Basic sensors and mechatronics"
     - title: "IMDL2"
       text: "BLDC, EtherCAT, and PCB"
-gallery:
-    - id: "gripper"
+gripper:
     - url: "images/imdl/gripper_first.png"
       image_path: "images/imdl/gripper_first.png"
     - url: "images/imdl/gripper.png"
