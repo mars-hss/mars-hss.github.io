@@ -22,8 +22,7 @@ In this course, we learned how to build a robot.
 
 ### Design a gripper for a mobile robot
 {% include figure.html multiple="true"
-  img_layout="half
-  images.img="images/imdl/gripper_first.png"
-  images.img="images/imdl/gripper.png"
+  img_layout="half"
+  images.img=["images/imdl/gripper_first.png", "images/imdl/gripper.png"]
 %}
 
