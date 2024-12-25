@@ -1,4 +1,13 @@
-<figure class="{{ include.class }}">
+<figure class="{{ include.img_layout }} {{ include.class }}">
+  {% if include.multiple %}
+    {% for img in images %}
+    <a href="{{ img | relative_url }}"
+        {% if img.title %}title="{{ img.title }}"{% endif %}>
+        <img src="{{ img | relative_url }}"
+            alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+    </a>
+    {% endfor %}
+  {% endif %}
     {% if include.url %}
     <a href="{{ include.img | relative_url }}"
         {% if img.title %}title="{{ img.title }}"{% endif %}>
