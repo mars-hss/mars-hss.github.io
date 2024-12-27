@@ -4,6 +4,7 @@ permalink: /study/
 toc: true
 toc_label: "Table of Contents"
 toc_sticky: true
+classes: wide
 ---
 {% include toc %}
 <!-- toc_icon: "cog" -->
