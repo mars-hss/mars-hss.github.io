@@ -25,6 +25,7 @@ Handle three types of learning via human brain.
 ### Unsupervise Learning
 
 ## Reinforcement Learning
+{% include figure.html url="true" img="images/learning/rl_diagram.png" %}
 ### Approximate Dynamic Programming and Reinforcement Learning
 $$
 Q(s,a) = Q(s,a) + \alpha\big(r(s,a,s') + \gamma^{i}\max_{a}Q(s',a)-Q(s,a)\big)

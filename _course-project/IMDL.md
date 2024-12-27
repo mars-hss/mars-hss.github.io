@@ -18,11 +18,11 @@ imdl1_gripper:
       image_path: "images/imdl/gripper.png"
       alt: "Second Design"
 imdl1_robot:
-    - url: "images/imdl/imdl1_2.png"
-      image_path: "images/imdl/imdl1_2.png"
+    - url: "images/imdl/imdl1_2.jpg"
+      image_path: "images/imdl/imdl1_2.jpg"
       alt: "Final Gripper and Platform"
-    - url: "images/imdl/imdl1.png"
-      image_path: "images/imdl/imdl1.png"
+    - url: "images/imdl/imdl1.jpg"
+      image_path: "images/imdl/imdl1.jpg"
       alt: "Final Robot"
 imdl2_robot:
     - url: "images/imdl/imdl2_gripper.png"
@@ -40,7 +40,7 @@ In this course, we learned how to build a robot.
 3. Integrate Hardware, Firmware and high-level Software.
    
    
-#### From IMDL1, we focused on learning sensors with circuit and controlling DC motor.
+From IMDL1, we focused on learning sensors with circuit and controlling DC motor.
 IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
 
 
