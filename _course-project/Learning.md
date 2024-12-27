@@ -24,7 +24,7 @@ Handle three types of learning via human brain.
 - Supervised Learning
 - Unsupervised Learning
 - Reinforcement Learning
-{% include gallery id='learning' caption="From BiLHR slides / Figure 1:Neural mechanisms of learning and control(Doya 2001)" %}
+{% include gallery id='learning' caption="\tFrom BiLHR slides \t/\t Figure 1:Neural mechanisms of learning and control(Doya 2001)" %}
    
    
 ### Supervised Learning

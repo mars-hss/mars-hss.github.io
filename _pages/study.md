@@ -2,6 +2,7 @@
 title: "Robotics"
 permalink: /study/
 author_profile: true
+classes: wide
 toc: true
 toc_label: "Table of Contents"
 toc_sticky: true
@@ -17,7 +18,7 @@ toc_icon: "cog"
 ## Fundamental
 - #### [Forward Kinematics](./forward_kinematics)   
     <!-- - #### [Denavit–Hartenberg(DH) parameters](./forward_kinematics)   -->
-     <!-- - #### [Product of exponentials(POE) Formula](./forward_kinematics)  -->
+    <!-- - #### [Product of exponentials(POE) Formula](./forward_kinematics)  -->
 <!-- #### [Inverse Kinematics](./test1)    -->
 <!-- #### [Forward Dynamics](./coming_soon)    -->
 <!-- #### [Inverse Dynamics](./coming_soon) -->
