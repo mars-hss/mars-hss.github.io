@@ -47,15 +47,19 @@ IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
 ### IMDL1 - Project
 {% include figure.html url="true" img="images/imdl/imdl1_project.png" caption="From IMDL1 slides" %}
 
+[](https://ieeexplore.ieee.org/document/1267272)
+
 #### Design a gripper for a mobile robot
 {% include gallery id='imdl1_gripper' %}
 
 #### Gripper and Robot
 {% include gallery id='imdl1_robot' %}
 
+From IMDL2, we focused on learning EtherCAT, BLDC with hall sensors and PCB Design.
 
 ### IMDL2 - Project
 {% include figure.html url="true" img="images/imdl/imdl2_project.png" caption="From IMDL2 slides" %}
+
 
 #### Gripper and Robot
 {% include gallery id='imdl2_robot' %}

@@ -3,11 +3,15 @@
   <a href="{{ include.img | relative_url }}"
       {% if img.title %}title="{{ img.title }}"{% endif %}>
       <img src="{{ include.img | relative_url }}"
-          alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+          alt="{% if img.alt %}{{ img.alt }}{% endif %}"
+          width="{% if img.width %}{{ img.width }}{% endif %}"
+          height="{% if img.height %}{{ img.height }}{% endif %}" >
   </a>
   {% else %}
   <img src="{{ include.img | relative_url }}"
-          alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+          alt="{% if img.alt %}{{ img.alt }}{% endif %}"
+          width="{% if img.width %}{{ img.width }}{% endif %}"
+          height="{% if img.height %}{{ img.height }}{% endif %}" >
   {% endif %}
   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
