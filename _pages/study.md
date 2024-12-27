@@ -1,12 +1,11 @@
 ---
 title: "Robotics"
-permalink: /study/
 toc: true
-toc_label: "Table of Contents"
+toc_label: "Robotics"
 toc_sticky: true
+permalink: /study/
 classes: wide
 ---
-{% include toc %}
 <!-- toc_icon: "cog" -->
 <!-- [![Fundatmental](https://img.shields.io/badge/Fundamental-EBEBEB?style=for-the-badge)](#fundamental)&nbsp;&nbsp;&nbsp;[![Legged System](https://img.shields.io/badge/Lagged_System-EBEBEB?style=for-the-badge)](#legged-system)&nbsp;&nbsp;&nbsp;[![Others](https://img.shields.io/badge/Others-EBEBEB?style=for-the-badge)](#others) -->
 
