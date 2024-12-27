@@ -1,10 +1,10 @@
 ---
-layout: archive
 title: "Robotics"
 permalink: /study/
 author_profile: true
 toc: true
 toc_label: "Table of Contents"
+toc_sticky: true
 toc_icon: "cog"
 ---
 

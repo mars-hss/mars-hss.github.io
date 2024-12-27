@@ -14,11 +14,9 @@ learning:
     - url: "images/learning/learning.png"
       image_path: "images/learning/learning.png"
       alt: "Brain with Learning1"
-      caption: "From BiLHR slides"
     - url: "images/learning/learning2.png"
-      image_path: "images/learning/learnin2.png"
+      image_path: "images/learning/learning2.png"
       alt: "Brain with Learning2"
-      caption: "Figure 1:Neural mechanisms of learning and control(Doya 2019)"
 ---
 
 ## Biologically-Inspired Learning for Humanoid Robots
@@ -26,7 +24,7 @@ Handle three types of learning via human brain.
 - Supervised Learning
 - Unsupervised Learning
 - Reinforcement Learning
-{% include gallery id='learning' %}
+{% include gallery id='learning' caption="From BiLHR slides / Figure 1:Neural mechanisms of learning and control(Doya 2001)" %}
    
    
 ### Supervised Learning
