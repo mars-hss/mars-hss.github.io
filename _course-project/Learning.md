@@ -30,8 +30,8 @@ Handle three types of learning via human brain.
 ### Supervised Learning
 A type of learning is inferring a model from labelled training data. It requires the explicit provision of input-output pairs. Supervised learning occurs by constructing a mapping from input to the output pairs.   
 
-{% include figure.html url="true" img="images/learning/bilhr_nao.gif" %}
-This is 2D data supervised learning beteween vision(X, Y) and Motors(Sholder).
+{% include figure.html url="true" img="images/learning/bilhr_nao.gif" caption="This is 2D data supervised learning beteween vision(X, Y) and Motors(Sholder)." %}
+
 
 ### Unsupervise Learning
 A type of learning refers to the problem of trying to find hidden structure in unlabelled data. It has no concept of target data. Unsupervised learning performs processing only on the input data.   
