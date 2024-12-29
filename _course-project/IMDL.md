@@ -1,6 +1,6 @@
 ---
 title: IMDL
-excerpt: 
+excerpt: ""
 header:
     teaser: images/imdl/imdl2.jpg
 permalink: /course-project/imdl
@@ -24,6 +24,20 @@ imdl1_robot:
     - url: images/imdl/imdl1.jpg
       image_path: images/imdl/imdl1.jpg
       alt: Final Robot
+imdl2_act:
+    - url: images/imdl/acturator1.png
+      image_path: images/imdl/acturator1.png
+      alt: Acturator1
+    - url: images/imdl/acturator2.png
+      image_path: images/imdl/acturator2.png
+      alt: Acturator2
+imdl2_pcb:
+    - url: images/imdl/pcb1.png
+      image_path: images/imdl/pcb1.png
+      alt: PCB1
+    - url: images/imdl/pcb2.png
+      image_path: images/imdl/pcb2.png
+      alt: PCB2
 imdl2_robot:
     - url: images/imdl/imdl2_gripper.png
       image_path: images/imdl/imdl2_gripper.png
@@ -61,7 +75,7 @@ IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
 {% include gallery id='imdl1_robot' %}
    
 
-From IMDL2, we focused on learning EtherCAT, BLDC with hall sensors and PCB Design.
+**From IMDL2, we focused on learning EtherCAT, BLDC with hall sensors and PCB Design.**
 
 ### IMDL2 - Project
 {% include figure.html url="true" img="images/imdl/imdl2_project.png" caption="From IMDL2 slides" %}
@@ -70,7 +84,12 @@ From IMDL2, we focused on learning EtherCAT, BLDC with hall sensors and PCB Desi
 3. Using protocol EtherCAT to operate the manipulator with simulink.
 4. Move an object using a motion planning algorithm(RTT).
 
+#### Acturators and PCBs
+{% include gallery id='imdl2_act' %}
+{% include gallery id='imdl2_pcb' %}
+
 #### Gripper and Robot
 {% include gallery id='imdl2_robot' %}
 
 #### Result Video
+{% include figure.html url="true" img="images/imdl/imdl2_result" %}

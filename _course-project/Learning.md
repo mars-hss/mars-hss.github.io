@@ -1,6 +1,6 @@
 ---
 title: Learning
-excerpt: 
+excerpt: ""
 header:
     teaser: images/learning/arl.gif
 permalink: /course-project/learning
