@@ -92,4 +92,4 @@ IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
 {% include gallery id='imdl2_robot' %}
 
 #### Result Video
-{% include figure.html url="true" img="images/imdl/imdl2_result" %}
+{% include figure.html url="true" img="images/imdl/imdl2_result.gif" %}
