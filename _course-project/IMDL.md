@@ -39,28 +39,38 @@ In this course, we learned how to build a robot.
 2. Mechanical Design for specific parts of a robot.
 3. Integrate Hardware, Firmware and high-level Software.
    
-   
+
 From IMDL1, we focused on learning sensors with circuit and controlling DC motor.
 IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
-
+   
 
 ### IMDL1 - Project
 {% include figure.html url="true" img="images/imdl/imdl1_project.png" caption="From IMDL1 slides" %}
-
-
-[](https://ieeexplore.ieee.org/document/1267272)
+1. Use sensors, motors, and 3D parts with SAME54 Xplained Pro development board to build mobile platform.
+2. High-level board(Intel UP Squared) commumnicate with SAME54 Xplained Pro with sensors' data.
+3. IR Localization to use a [method](https://ieeexplore.ieee.org/document/1267272).
+4. Use gripper to pick up and down an object.
+5. Drive to target point with collision avoidance(Ultrasonic sensors).
+   
 
 #### Design a gripper for a mobile robot
 {% include gallery id='imdl1_gripper' %}
+   
 
 #### Gripper and Robot
 {% include gallery id='imdl1_robot' %}
+   
 
 From IMDL2, we focused on learning EtherCAT, BLDC with hall sensors and PCB Design.
 
 ### IMDL2 - Project
 {% include figure.html url="true" img="images/imdl/imdl2_project.png" caption="From IMDL2 slides" %}
-
+1. Design a PCB and solder all electronic parts to operate each actuator.
+2. Design a whole frame to build a 2DoF manipulator with gripper.
+3. Using protocol EtherCAT to operate the manipulator with simulink.
+4. Move an object using a motion planning algorithm(RTT).
 
 #### Gripper and Robot
 {% include gallery id='imdl2_robot' %}
+
+#### Result Video
