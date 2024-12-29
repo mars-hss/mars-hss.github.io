@@ -1,22 +1,22 @@
 ---
-title: "Learning"
-excerpt: ""
+title: Learning
+excerpt: 
 header:
     teaser: images/learning/arl.gif
 permalink: /course-project/learning
 collection: course-project
 sidebar:
-    - title: "Overal Learning Method"
-      text: "Biologically-Inspired Learning for Humanoid Robots(BiLHR)"
-    - title: "Reinforcement Learning"
-      text: "Applied Reinforcement Learning(ARL)"
+    - title: Overal Learning Method
+      text: Biologically-Inspired Learning for Humanoid Robots(BiLHR)
+    - title: Reinforcement Learning
+      text: Applied Reinforcement Learning(ARL)
 learning:
-    - url: "images/learning/learning.png"
-      image_path: "images/learning/learning.png"
-      alt: "Brain with Learning1"
-    - url: "images/learning/learning2.png"
-      image_path: "images/learning/learning2.png"
-      alt: "Brain with Learning2"
+    - url: images/learning/learning.png
+      image_path: images/learning/learning.png
+      alt: Brain with Learning1
+    - url: images/learning/learning2.png
+      image_path: images/learning/learning2.png
+      alt: Brain with Learning2
 ---
 
 ## Biologically-Inspired Learning for Humanoid Robots
@@ -24,7 +24,7 @@ Handle three types of learning via human brain.
 - Supervised Learning
 - Unsupervised Learning
 - Reinforcement Learning
-{% include gallery id='learning' caption="   From BiLHR slides     /        Figure 1:Neural mechanisms of learning and control(Doya 2001)" %}
+{% include gallery id='learning' caption="From BiLHR slides / Figure 1:Neural mechanisms of learning and control(Doya 2001)" %}
    
    
 ### Supervised Learning

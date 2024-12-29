@@ -1,36 +1,36 @@
 ---
-title: "IMDL"
-excerpt: ""
+title: IMDL
+excerpt: 
 header:
     teaser: images/imdl/imdl2.jpg
 permalink: /course-project/imdl
 collection: course-project
 sidebar:
-    - title: "IMDL1"
-      text: "Basic sensors and mechatronics"
-    - title: "IMDL2"
-      text: "BLDC, EtherCAT, and PCB"
+    - title: MDL1
+      text: Basic sensors and mechatronics
+    - title: IMDL2
+      text: BLDC, EtherCAT, and PCB
 imdl1_gripper:
-    - url: "images/imdl/gripper_first.png"
-      image_path: "images/imdl/gripper_first.png"
-      alt: "First Desgin"
-    - url: "images/imdl/gripper.png"
-      image_path: "images/imdl/gripper.png"
-      alt: "Second Design"
+    - url: images/imdl/gripper_first.png
+      image_path: images/imdl/gripper_first.png
+      alt: First Desgin
+    - url: images/imdl/gripper.png
+      image_path: images/imdl/gripper.png
+      alt: Second Design
 imdl1_robot:
-    - url: "images/imdl/imdl1_2.jpg"
-      image_path: "images/imdl/imdl1_2.jpg"
-      alt: "Final Gripper and Platform"
-    - url: "images/imdl/imdl1.jpg"
-      image_path: "images/imdl/imdl1.jpg"
-      alt: "Final Robot"
+    - url: images/imdl/imdl1_2.jpg
+      image_path: images/imdl/imdl1_2.jpg
+      alt: Final Gripper and Platform
+    - url: images/imdl/imdl1.jpg
+      image_path: images/imdl/imdl1.jpg
+      alt: Final Robot
 imdl2_robot:
-    - url: "images/imdl/imdl2_gripper.png"
-      image_path: "images/imdl/imdl2_gripper.png"
-      alt: "Gripper Design"
-    - url: "images/imdl/imdl2_robot.png"
-      image_path: "images/imdl/imdl2_robot.png"
-      alt: "Robot Design"
+    - url: images/imdl/imdl2_gripper.png
+      image_path: images/imdl/imdl2_gripper.png
+      alt: Gripper Design
+    - url: images/imdl/imdl2_robot.png
+      image_path: images/imdl/imdl2_robot.png
+      alt: Robot Design
 ---
 ## Intelligent Machine Design Lab
 
@@ -46,6 +46,7 @@ IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
 
 ### IMDL1 - Project
 {% include figure.html url="true" img="images/imdl/imdl1_project.png" caption="From IMDL1 slides" %}
+
 
 [](https://ieeexplore.ieee.org/document/1267272)
 

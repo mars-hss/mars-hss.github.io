@@ -1,11 +1,10 @@
 ---
-title: "Robotics"
-toc: true
-toc_label: "Robotics"
-toc_sticky: true
+title: Robotics
 permalink: /study/
+author_profile: true
 classes: wide
 ---
+{% include toc toc_sticky="tru" toc_label="Robotics" %}
 <!-- toc_icon: "cog" -->
 <!-- [![Fundatmental](https://img.shields.io/badge/Fundamental-EBEBEB?style=for-the-badge)](#fundamental)&nbsp;&nbsp;&nbsp;[![Legged System](https://img.shields.io/badge/Lagged_System-EBEBEB?style=for-the-badge)](#legged-system)&nbsp;&nbsp;&nbsp;[![Others](https://img.shields.io/badge/Others-EBEBEB?style=for-the-badge)](#others) -->
 
@@ -21,7 +20,8 @@ classes: wide
 <!-- #### [Forward Dynamics](./coming_soon)    -->
 <!-- #### [Inverse Dynamics](./coming_soon) -->
 - ### [State Estimation](./state_estimation)   
-<!-- #### [State Estimation](./coming_soon)    -->
+<!-- #### [State Estimation](./coming_soon)    -->   
+<br/>
 ---   
 
 <br/>
@@ -31,6 +31,7 @@ classes: wide
 
 ## Legged System
 - ### [Dynamics](./coming_soon)   
+<br/>
 ---
 <br/>
 <br/>
