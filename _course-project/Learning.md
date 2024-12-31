@@ -19,7 +19,7 @@ learning:
       alt: Brain with Learning2
 ---
 
-## Biologically-Inspired Learning for Humanoid Robots
+## Biologically-Inspired Learning for Humanoid Robots(BiLHR)
 Handle three types of learning via human brain.
 - Supervised Learning
 - Unsupervised Learning
@@ -37,14 +37,14 @@ A type of learning is inferring a model from labelled training data. It requires
 A type of learning refers to the problem of trying to find hidden structure in unlabelled data. It has no concept of target data. Unsupervised learning performs processing only on the input data.   
 
 ## Reinforcement Learning
-{% include figure.html url="true" img="images/learning/rl_diagram.png" wdith="75%" %}
+{% include figure.html url="true" img="images/learning/rl_diagram.png" img.width="80%" %}
 A type of learning is considered a hybrid of supervised and unsupervised learning. It simulates the human learning based on trial and error. RL uses a scalar reward signal to evaluate input-output pairs and hence discover, through trial and error, the optimal ouputs for each input.
 
-### Approximate Dynamic Programming and Reinforcement Learning
+### Approximate Dynamic Programming and Reinforcement Learning(ADPRL)
 
 
-### Applied Reinforcement Learning
-
+### Applied Reinforcement Learning(ARL)
+This course dealt with an application of reinforcement learning from scatch. Unlikely ADPRL, it concentrate on how to build RL algorithm based on a game called "Hexball". Neural network was prohibited in this project. We purely designed our own style RL basically Q-learning using C++ lannguage.
 $$
 Q(s,a) = Q(s,a) + \alpha\big(r(s,a,s') + \gamma^{i}\max_{a}Q(s',a)-Q(s,a)\big)
 $$
