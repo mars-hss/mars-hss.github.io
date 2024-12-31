@@ -1,17 +1,17 @@
 <figure class="{{ include.class }}">
   {% if include.url %}
   <a href="{{ include.img | relative_url }}"
-      {% if img.title %}title="{{ img.title }}"{% endif %}>
+      {% if include.title %}title="{{ include.title }}"{% endif %}>
       <img src="{{ include.img | relative_url }}"
-          alt="{% if img.alt %}{{ img.alt }}{% endif %}"
-          width="{% if img.width %}{{ img.width }}{% endif %}"
-          height="{% if img.height %}{{ img.height }}{% endif %}" >
+          alt="{% if include.alt %}{{ include.alt }}{% endif %}"
+          width="{% if include.width %}{{ include.width }}{% endif %}"
+          height="{% if include.height %}{{ include.height }}{% endif %}" >
   </a>
   {% else %}
   <img src="{{ include.img | relative_url }}"
-          alt="{% if img.alt %}{{ img.alt }}{% endif %}"
-          width="{% if img.width %}{{ img.width }}{% endif %}"
-          height="{% if img.height %}{{ img.height }}{% endif %}" >
+          alt="{% if include.alt %}{{ include.alt }}{% endif %}"
+          width="{% if include.width %}{{ include.width }}{% endif %}"
+          height="{% if include.height %}{{ include.height }}{% endif %}" >
   {% endif %}
   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>

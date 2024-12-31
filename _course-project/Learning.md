@@ -37,7 +37,7 @@ A type of learning is inferring a model from labelled training data. It requires
 A type of learning refers to the problem of trying to find hidden structure in unlabelled data. It has no concept of target data. Unsupervised learning performs processing only on the input data.   
 
 ## Reinforcement Learning
-{% include figure.html url="true" img="images/learning/rl_diagram.png" img.width="80%" %}
+{% include figure.html url="true" img="images/learning/rl_diagram.png" width="75%" %}
 A type of learning is considered a hybrid of supervised and unsupervised learning. It simulates the human learning based on trial and error. RL uses a scalar reward signal to evaluate input-output pairs and hence discover, through trial and error, the optimal ouputs for each input.
 
 ### Approximate Dynamic Programming and Reinforcement Learning(ADPRL)
