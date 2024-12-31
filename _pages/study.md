@@ -3,8 +3,10 @@ title: Robotics
 permalink: /study/
 author_profile: true
 classes: wide
+toc: true
+toc_label: Robotics
+toc_sticky: true
 ---
-{% include toc title="Robotics" %}
 <!-- toc_icon: "cog" -->
 <!-- [![Fundatmental](https://img.shields.io/badge/Fundamental-EBEBEB?style=for-the-badge)](#fundamental)&nbsp;&nbsp;&nbsp;[![Legged System](https://img.shields.io/badge/Lagged_System-EBEBEB?style=for-the-badge)](#legged-system)&nbsp;&nbsp;&nbsp;[![Others](https://img.shields.io/badge/Others-EBEBEB?style=for-the-badge)](#others) -->
 

@@ -187,6 +187,8 @@ li ol {
 figure {
   display: -webkit-box;
   display: flex;
+  margin-left: auto; 
+  margin-right: auto;
   -webkit-box-pack: justify;
           justify-content: space-between;
   -webkit-box-align: start;
