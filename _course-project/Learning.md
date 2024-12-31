@@ -44,7 +44,8 @@ A type of learning is considered a hybrid of supervised and unsupervised learnin
 
 
 ### Applied Reinforcement Learning(ARL)
-This course dealt with an application of reinforcement learning from scatch. Unlikely ADPRL, it concentrate on how to build RL algorithm based on a game called "Hexball". Neural network was prohibited in this project. We purely designed our own style RL basically Q-learning using C++ lannguage.
+This course dealt with an application of reinforcement learning from scatch. Unlikely ADPRL, it concentrate on how to build RL algorithm based on a game called "Hexball". Neural network was prohibited in this project. We purely designed our own style RL basically Q-learning using C++ lannguage.   
+
 $$
 Q(s,a) = Q(s,a) + \alpha\big(r(s,a,s') + \gamma^{i}\max_{a}Q(s',a)-Q(s,a)\big)
 $$
