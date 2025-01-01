@@ -54,7 +54,7 @@ In this course, we learned how to build a robot.
 3. Integrate Hardware, Firmware and high-level Software.
    
 
-From IMDL1, we focused on learning sensors with circuit and controlling DC motor.
+**From IMDL1, we focused on learning sensors with circuit and controlling DC motor.**   
 IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
    
 
