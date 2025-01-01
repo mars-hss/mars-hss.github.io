@@ -18,6 +18,7 @@ learning:
       image_path: images/learning/learning2.png
       alt: Brain with Learning2
 arl:
+    - url: images/learning/arl_2.jpg
       image_path: images/learning/arl_2.jpg
     - url: images/learning/arl_3.jpg
       image_path: images/learning/arl_3.jpg
