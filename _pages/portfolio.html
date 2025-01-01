@@ -10,14 +10,20 @@ classes: wide
 ---
 
 <h2 class="archive__subtitle">Course Project</h2>
-<div class="list__item">
+<div class="entries-grid">
     {% for post in site.course-project %}
         {% include archive-single.html type="grid" %}
     {% endfor %}
 </div>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 <h2 class="archive__subtitle">Private Project</h2>
-<div class="list__item">
+<div class="entries-grid">
     {% for post in site.portfolio %}
         {% include archive-single.html type="grid" %}
     {% endfor %}
