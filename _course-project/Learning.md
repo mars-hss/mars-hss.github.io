@@ -17,6 +17,17 @@ learning:
     - url: images/learning/learning2.png
       image_path: images/learning/learning2.png
       alt: Brain with Learning2
+arl:
+    - url: images/learning/arl_1.jpg
+      image_path: images/learning/arl_1.jpg
+    - url: images/learning/arl_2.jpg
+      image_path: images/learning/arl_2.jpg
+    - url: images/learning/arl_3.jpg
+      image_path: images/learning/arl_3.jpg
+    - url: images/learning/arl_4.jpg
+      image_path: images/learning/arl_4.jpg
+    - url: images/learning/arl_5.jpg
+      image_path: images/learning/arl_5.jpg
 ---
 
 ## Biologically-Inspired Learning for Humanoid Robots(BiLHR)
@@ -24,7 +35,7 @@ Handle three types of learning via human brain.
 - Supervised Learning
 - Unsupervised Learning
 - Reinforcement Learning
-{% include gallery id='learning' caption="From BiLHR slides / Figure 1:Neural mechanisms of learning and control(Doya 2001)" %}
+{% include gallery id='learning' caption="From BiLHR slides / Figure1: Neural mechanisms of learning and control(Doya 2001)" %}
    
    
 ### Supervised Learning
@@ -41,12 +52,14 @@ A type of learning refers to the problem of trying to find hidden structure in u
 A type of learning is considered a hybrid of supervised and unsupervised learning. It simulates the human learning based on trial and error. RL uses a scalar reward signal to evaluate input-output pairs and hence discover, through trial and error, the optimal ouputs for each input.
 
 ### Approximate Dynamic Programming and Reinforcement Learning(ADPRL)
-The course focused on theoratical parts of reinforcement learning. 
+The course focused on the theoretical aspects of reinforcement learning. It covered topics ranging from decision-making, deterministic and stochastic processes, and Markov Decision Processes (MDPs) to Bellman Equations and Operators, Dynamic Programming (DP), Q-learning, Monte Carlo methods, and Temporal Difference learning. ADPRL did not include deep learning concepts due to organizational reasons. In essence, deep reinforcement learning (DRL) replaces the mapping from state to action with a neural network. I will explore the theoretical components of reinforcement learning in more detail later.
 
 
 ### Applied Reinforcement Learning(ARL)
-This course dealt with an application of reinforcement learning from scatch. Unlikely ADPRL, it concentrate on how to build RL algorithm based on a game called "Hexball". Neural network was prohibited in this project. We purely designed our own style RL basically Q-learning using C++ language.   
+ARL focused on the application of reinforcement learning from scratch. Unlike ADPRL, it concentrated on building an RL algorithm based on a game called "Hexball." The use of neural networks was prohibited for this project. Instead, we designed our own reinforcement learning approach, primarily using Q-learning, and implemented it in C++.   
+<br/>
 
-$$
-Q(s,a) = Q(s,a) + \alpha\big(r(s,a,s') + \gamma^{i}\max_{a}Q(s',a)-Q(s,a)\big)
-$$
+{% include gallery id='arl' %}
+
+#### Result Video
+{% include figure.html url="true" img="images/learning/arl.gif" %}
