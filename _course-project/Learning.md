@@ -17,11 +17,12 @@ learning:
     - url: images/learning/learning2.png
       image_path: images/learning/learning2.png
       alt: Brain with Learning2
-arl:
+arl_1:
     - url: images/learning/arl_2.jpg
       image_path: images/learning/arl_2.jpg
     - url: images/learning/arl_3.jpg
       image_path: images/learning/arl_3.jpg
+arl_2:
     - url: images/learning/arl_4.jpg
       image_path: images/learning/arl_4.jpg
     - url: images/learning/arl_5.jpg
@@ -58,7 +59,8 @@ ARL focused on the application of reinforcement learning from scratch. Unlike AD
 <br/>
 
 {% include figure.html url="true" img="images/learning/arl_1.jpg" %}
-{% include gallery id='arl' %}
+{% include gallery id='arl_1' %}
+{% include gallery id='arl_2' %}
 
 #### Result Video
 {% include figure.html url="true" img="images/learning/arl.gif" %}

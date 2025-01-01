@@ -5,21 +5,18 @@ layout: archive
 permalink: /portfolio/
 <!-- collection: portfolio -->
 <!-- entries_layout: grid -->
+author_profile: true
 classes: wide
 ---
 
-<div class="page__content"><p><h3>Course Project</h3></p></div>
+<h2 id="slugify" class="archive__subtitle">Course Project</h2>
 <div class="entries-grid">
     {% for post in site.course-project %}
         {% include archive-single.html type="grid" %}
     {% endfor %}
 </div>
-<br/>
-<br/>
-<br/>
-<br/>
 
-<div class="page__content"><p><h3>Private Project</h3></p></div>
+<h2 id="slugify" class="archive__subtitle">Private Project</h2>
 <div class="entries-grid">
     {% for post in site.portfolio %}
         {% include archive-single.html type="grid" %}
