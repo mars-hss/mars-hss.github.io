@@ -8,15 +8,15 @@ permalink: /portfolio/
 classes: wide
 ---
 
+<div class="page__content"><p><h3>Course Project</h3></p></div>
 <div class="entries-grid">
-    <div class="page__content"><h3 id="page-subtitle">Course Project</h3></div>
     {% for post in site.course-project %}
         {% include archive-single.html type="grid" %}
     {% endfor %}
 </div>
 
+<div class="page__content"><p><h3>Private Project</h3></p></div>
 <div class="entries-grid">
-    <div class="page__content"><h3 id="page-subtitle">Private Project</h3></div>
     {% for post in site.portfolio %}
         {% include archive-single.html type="grid" %}
     {% endfor %}
