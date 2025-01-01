@@ -9,15 +9,15 @@ author_profile: true
 classes: wide
 ---
 
-<h2 id="slugify" class="archive__subtitle">Course Project</h2>
-<div class="entries-grid">
+<h2 class="archive__subtitle">Course Project</h2>
+<div class="list__item">
     {% for post in site.course-project %}
         {% include archive-single.html type="grid" %}
     {% endfor %}
 </div>
 
-<h2 id="slugify" class="archive__subtitle">Private Project</h2>
-<div class="entries-grid">
+<h2 class="archive__subtitle">Private Project</h2>
+<div class="list__item">
     {% for post in site.portfolio %}
         {% include archive-single.html type="grid" %}
     {% endfor %}
