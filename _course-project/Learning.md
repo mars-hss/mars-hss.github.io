@@ -18,9 +18,6 @@ learning:
       image_path: images/learning/learning2.png
       alt: Brain with Learning2
 arl:
-    - url: images/learning/arl_1.jpg
-      image_path: images/learning/arl_1.jpg
-    - url: images/learning/arl_2.jpg
       image_path: images/learning/arl_2.jpg
     - url: images/learning/arl_3.jpg
       image_path: images/learning/arl_3.jpg
@@ -59,6 +56,7 @@ The course focused on the theoretical aspects of reinforcement learning. It cove
 ARL focused on the application of reinforcement learning from scratch. Unlike ADPRL, it concentrated on building an RL algorithm based on a game called "Hexball." The use of neural networks was prohibited for this project. Instead, we designed our own reinforcement learning approach, primarily using Q-learning, and implemented it in C++.   
 <br/>
 
+{% include figure.html url="true" img="images/learning/arl_1.jpg" %}
 {% include gallery id='arl' %}
 
 #### Result Video
