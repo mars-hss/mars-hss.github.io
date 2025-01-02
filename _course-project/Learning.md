@@ -28,7 +28,6 @@ arl_2:
     - url: images/learning/arl_5.jpg
       image_path: images/learning/arl_5.jpg
 ---
-
 ## Biologically-Inspired Learning for Humanoid Robots(BiLHR)
 Handle three types of learning via human brain.
 - Supervised Learning
@@ -56,7 +55,8 @@ The course focused on the theoretical aspects of reinforcement learning. It cove
 
 ### Applied Reinforcement Learning(ARL)
 ARL focused on the application of reinforcement learning from scratch. Unlike ADPRL, it concentrated on building an RL algorithm based on a game called "Hexball." The use of neural networks was prohibited for this project. Instead, we designed our own reinforcement learning approach, primarily using Q-learning, and implemented it in C++.   
-<br/>
+   
+The original states of this Hexball are the x and y positions and velocities of both the agent and the ball in the game. Although the 2D coordinate system is not continuous, it has nearly infinite state combinations due to the many decimal places involved. To address this problem, new states were defined. One represents the distance between the agent and the ball, while the other indicates the direction from the agent to the ball. A Q-table was used to store Q-values for each state based on their indices.
 
 {% include figure.html url="true" img="images/learning/arl_1.jpg" %}
 {% include gallery id='arl_1' %}
