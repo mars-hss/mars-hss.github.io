@@ -340,7 +340,6 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-include-cache
-  - jekyll-mermaid
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -350,7 +349,6 @@ whitelist:
   - jekyll-sitemap
   - jemoji
   - jekyll-include-cache
-  - jekyll-mermaid
 
 
 # Archives
