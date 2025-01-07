@@ -69,7 +69,7 @@ IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
    
 
 <div class="mermaid">
-stateDiagram-v2
+stateDiagram
     [*] --> Localization
     Localization --> IDLE: Target_Position
     IDLE --> Moving
@@ -78,7 +78,7 @@ stateDiagram-v2
     Moving --> Pick_up: Command
     Pick_up --> Localization
     Moving --> Drop_off: Command
-    Drop_off --> [*]
+    Drop_off --> [*];
 </div>
 
 #### Design a gripper for a mobile robot
