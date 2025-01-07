@@ -70,15 +70,17 @@ IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
 
 <div class="mermaid">
 stateDiagram
-    [*] --> Localization
-    Localization --> IDLE: Target_Position
-    IDLE --> Moving
-    Moving --> Obstacles: Change_Path
-    Obstacles --> Moving
-    Moving --> Pick_up: Command
-    Pick_up --> Localization
-    Moving --> Drop_off: Command
-    Drop_off --> [*];
+    [*] --> IDLE
+    IDLE --> Localization: Command
+    Localization --> IDLE: IR_Sensor
+    IDLE --> Moving: Target_Position
+    Moving --> Obstacles: Ultrasonic_Sensor
+    Obstacles --> Moving: Change_Path
+    Moving --> IDLE
+    IDLE --> Pick_Up: Command
+    Pick_up --> IDLE
+    IDLE --> Drop_Off: Command
+    Drop_off --> [*]
 </div>
 
 #### Design a gripper for a mobile robot
