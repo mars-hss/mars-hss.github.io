@@ -72,14 +72,14 @@ IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
 stateDiagram
     [*] --> IDLE
     IDLE --> Localization: Command
-    Localization --> IDLE: IR_Sensor
+    Localization --> IDLE: IR_sensor
     IDLE --> Moving: Target_Position
-    Moving --> Obstacles: Ultrasonic_Sensor
+    Moving --> Obstacles: Sonar_sensor
     Obstacles --> Moving: Change_Path
     Moving --> IDLE
-    IDLE --> Pick_Up: Command
+    IDLE --> Pick_up: Command
     Pick_up --> IDLE
-    IDLE --> Drop_Off: Command
+    IDLE --> Drop_off: Command
     Drop_off --> [*]
 </div>
 
