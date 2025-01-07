@@ -101,8 +101,21 @@ stateDiagram
 4. Move an object using a motion planning algorithm(RTT).
 
 #### Acturators and PCBs
+<div class="mermaid">
+flowchart LR
+  A(Joint Design) --> B(Configurations)
+  B --> C(Task Space simulation)
+  C --> D(Task Space simulation)
+  D --> E@{label:"Joint torque acceptable?", form: diamond}
+  E --> B: No
+  E --> F(CAD Design): Yes
 {% include gallery id='imdl2_act' %}
 {% include gallery id='imdl2_pcb' %}
+
+
+
+    
+</div>
 
 #### Gripper and Robot
 {% include gallery id='imdl2_robot' %}
