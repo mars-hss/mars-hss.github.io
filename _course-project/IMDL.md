@@ -103,12 +103,13 @@ stateDiagram
 #### Acturators and PCBs
 <div class="mermaid">
 flowchart LR
-  A(Joint Design) --> B(Configurations)
-  B --> C(Task Space simulation)
-  C --> D(Dynamic simulation)
-  D --> E{Joint torque acceptable?}
+  A(Joint Design):::white--> B(Configurations):::white
+  B --> C(Task Space simulation):::white
+  C --> D(Dynamic simulation):::white
+  D --> E{Joint torque acceptable?}:::white
   E --> |No| B
-  E --> |Yes| F(CAD Design)
+  E --> |Yes| F(CAD Design):::white
+  classDef white fill: #fff, stroke: #000, stroke-width: 2.5px
 </div>
 {% include gallery id='imdl2_act' %}
 {% include gallery id='imdl2_pcb' %}
