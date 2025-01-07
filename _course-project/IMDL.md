@@ -67,7 +67,7 @@ IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
 5. Drive to target point with collision avoidance(Ultrasonic sensors).
    
 
-```mermaid
+{% mermaid %}
 stateDiagram-v2
     [*] --> Localization
     Localization --> IDLE: Target_Position
@@ -78,7 +78,7 @@ stateDiagram-v2
     Pick_up --> Localization
     Moving --> Drop_off: Command
     Drop_off --> [*]
-```
+{% endmermaid %}
 
 #### Design a gripper for a mobile robot
 {% include gallery id='imdl1_gripper' %}
