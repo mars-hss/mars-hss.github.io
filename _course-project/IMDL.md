@@ -105,10 +105,10 @@ stateDiagram
 flowchart LR
   A(Joint Design) --> B(Configurations)
   B --> C(Task Space simulation)
-  C --> D(Task Space simulation)
-  D --> E@{label:"Joint torque acceptable?", form: diamond}
-  E --> B: No
-  E --> F(CAD Design): Yes
+  C --> D(Dynamic simulation)
+  D --> E{Joint torque acceptable?}
+  E --> |No| B
+  E --> |Yes| F(CAD Design)
 </div>
 {% include gallery id='imdl2_act' %}
 {% include gallery id='imdl2_pcb' %}
