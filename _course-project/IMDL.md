@@ -68,15 +68,16 @@ IR sensor(CNY70, LTH301), Memory(MCP4151-SPI), Motor(FIT0403)
    
 
 ```mermaid
-stateDiagram
+stateDiagram-v2
     [*] --> Localization
-    Localization --> Target Position
-    Target Position --> Moving
-    Moving --> Pick up the Object
-    Pick up the Object --> Localization
-    Moving --> Pick down the Object
-    Pick down the Object --> [*]
-
+    Localization --> IDLE: Target_Position
+    IDLE --> Moving
+    Moving --> Obstacles: Change_Path
+    Obstacles --> Moving
+    Moving --> Pick_up: Command
+    Pick_up --> Localization
+    Moving --> Drop_off: Command
+    Drop_off --> [*]
 ```
 
 #### Design a gripper for a mobile robot
