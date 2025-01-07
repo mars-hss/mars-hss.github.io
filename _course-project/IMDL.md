@@ -109,13 +109,11 @@ flowchart LR
   D --> E@{label:"Joint torque acceptable?", form: diamond}
   E --> B: No
   E --> F(CAD Design): Yes
+</div>
 {% include gallery id='imdl2_act' %}
 {% include gallery id='imdl2_pcb' %}
-
-
-
     
-</div>
+
 
 #### Gripper and Robot
 {% include gallery id='imdl2_robot' %}
