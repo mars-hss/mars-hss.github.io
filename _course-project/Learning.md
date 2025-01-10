@@ -62,5 +62,5 @@ The original states of this Hexball are the x and y positions and velocities of 
 {% include gallery id='arl_1' %}
 {% include gallery id='arl_2' %}
 
-#### Result Video
+**Result Video**
 {% include figure.html url="true" img="images/learning/arl.gif" %}

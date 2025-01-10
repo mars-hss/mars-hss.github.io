@@ -83,11 +83,11 @@ stateDiagram
     Drop_off --> [*]
 </div>
 
-#### Design a gripper for a mobile robot
+**Design a gripper for a mobile robot**
 {% include gallery id='imdl1_gripper' %}
    
 
-#### Gripper and Robot
+**Gripper and Robot**
 {% include gallery id='imdl1_robot' %}
    
 
@@ -100,7 +100,7 @@ stateDiagram
 3. Using protocol EtherCAT to operate the manipulator with simulink.
 4. Move an object using a motion planning algorithm(RTT).
 
-#### actuators and PCBs
+**Actuators and PCBs**
 <div class="mermaid">
 flowchart LR
   A(Joint Design):::white--> B(Configurations):::white
@@ -116,8 +116,8 @@ flowchart LR
     
 
 
-#### Gripper and Robot
+**Gripper and Robot**
 {% include gallery id='imdl2_robot' %}
 
-#### Result Video
+**Result Video**
 {% include figure.html url="true" img="images/imdl/imdl2_result.gif" %}
