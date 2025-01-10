@@ -26,12 +26,12 @@ imdl1_robot:
       image_path: images/imdl/imdl1.jpg
       alt: Final Robot
 imdl2_act:
-    - url: images/imdl/acturator1.png
-      image_path: images/imdl/acturator1.png
-      alt: Acturator1
-    - url: images/imdl/acturator2.png
-      image_path: images/imdl/acturator2.png
-      alt: Acturator2
+    - url: images/imdl/actuator1.png
+      image_path: images/imdl/actuator1.png
+      alt: Actuator1
+    - url: images/imdl/actuator2.png
+      image_path: images/imdl/actuator2.png
+      alt: Actuator2
 imdl2_pcb:
     - url: images/imdl/pcb1.png
       image_path: images/imdl/pcb1.png
@@ -100,7 +100,7 @@ stateDiagram
 3. Using protocol EtherCAT to operate the manipulator with simulink.
 4. Move an object using a motion planning algorithm(RTT).
 
-#### Acturators and PCBs
+#### actuators and PCBs
 <div class="mermaid">
 flowchart LR
   A(Joint Design):::white--> B(Configurations):::white
