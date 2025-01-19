@@ -1,5 +1,5 @@
 ---
-title: 'Update course projects'
+title: 'Plan of course projects'
 date: 2025-01-01
 permalink: /blog/plan-course
 tags:
@@ -9,13 +9,13 @@ tags:
 
 This is a plan of updating for projects from courses.
 
-| Name | Topic | Description | Expected update time | ETC |
-|---|---|---|---|---|
-| [IMDL](https://mars-hss.github.io/course-project/imdl) | Mechatronics, Sensors | Building robots from scrach. Sensors / Acturators / Integration HW and SW | Mid of Januaray |  |
-| [Learning](https://mars-hss.github.io/course-project/learning) | Machine Learning and Reinforcement Learning | Learning from the Human brain / an application of reinforcement learning | Mid of Januaray |  |
-| Manipulation | Kinematics and Dynamics | Focusing on a robotic arm | Mid of February |  |
-| Grasping | Robotic hands | Focusing on robotic hands and control | Mid of February |  |
-| Contact | Optimal Control | Control robots with contact-rich environments | End of February |  | 
-| Walking | Bipedal and Quadrupedal mechanism | Dynamics of legged robotics | Mid of March |  |
-| Navigation | ROS Navigation Stack and Motion Planning | Implementing ROS Nav and control algorithm | Mid of March |  |
-| Thesis | Imitation Learning | combining optimal control and deep reinforcement learning | Mid of March |  |
+| Name | Topic | Description | Expected update time | Status | ETC |
+|---|---|---|---|---|---|
+| [IMDL](https://mars-hss.github.io/course-project/imdl) | Mechatronics, Sensors | Building robots from scrach. Sensors / Acturators / Integration HW and SW | Mid of Januaray | DONE |  |
+| [Learning](https://mars-hss.github.io/course-project/learning) | Machine Learning and Reinforcement Learning | Learning from the Human brain / an application of reinforcement learning | Mid of Januaray | DONE |  |
+| Grasping | Robotic hands | Focusing on robotic hands and control | Mid of February |  |  |
+| Manipulation | Kinematics and Dynamics | Focusing on a robotic arm | Mid of February |  |  |
+| Contact | Optimal Control | Control robots with contact-rich environments | End of March |  |  | 
+| Walking | Bipedal and Quadrupedal mechanism | Dynamics of legged robotics | Mid of April |  |  |
+| Navigation | ROS Navigation Stack and Motion Planning | Implementing ROS Nav and control algorithm | End of April |  |  |
+| Thesis | Imitation Learning | combining optimal control and deep reinforcement learning | Mid of May |  |  |

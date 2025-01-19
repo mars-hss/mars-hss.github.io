@@ -1,6 +1,6 @@
 ---
 title: 'A plan of updating stuff'
-date: 2024-11-03
+date: 2025-01-19
 permalink: /blog/plan
 tags:
   - Project
