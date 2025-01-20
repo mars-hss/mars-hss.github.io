@@ -6,7 +6,7 @@ tags:
   - Project
 ---
 
-This is a plan of updating for projects from courses. These are categorized by similar with current updates.
+This is a plan of updating for projects from courses. These are categorized by similar topics with current updates.
 
 | Name | Topic | Description | Expected update time | Status |
 |---|---|---|---|---|
