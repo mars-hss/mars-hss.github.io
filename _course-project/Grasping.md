@@ -2,7 +2,7 @@
 title: Grasping
 excerpt: ""
 header:
-    teaser: images/grasping/
+    teaser: images/grasping/grasping_teaser.jpg
 permalink: /course-project/grasping
 collection: course-project
 sidebar:
