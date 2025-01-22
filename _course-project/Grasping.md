@@ -34,13 +34,13 @@ hackathon:
 ---
 
 ## Introction to Grasping
-This course concentrates on a robotic hand unlike a gripper. The contents are from DoF to kinematics about a robotc hand. A project of the course dealt with glove inputs from humand hand to control a robotic hand in simulation.
+This course focused on a robotic hand, distinct from a gripper. The content covered topics ranging from degrees of freedom (DoF) to the kinematics of a robotic hand. The course project involved using glove inputs from a human hand to control a robotic hand in simulation.
    
 {% include gallery id='grasping_1' %}
 {% include gallery id='grasping_2' %}
 
 ## Robotics Hackathon
-We designed a robotic hand for Siemens. I took simulation part from sense glove inputs. We utilize Unity with ROS. I made a simple game to test our sensor inputs to outputs.
+We designed a robotic hand for Siemens. I worked on the software and simulation aspects, focusing on processing SenseGlove inputs. We utilized Unity in combination with ROS. To test our sensor inputs and outputs, I developed a simple game in the simulation.
 
 {% include figure.html url="true" img="images/grasping/hackathon_1.jpg" %}
 {% include gallery id='hackathon' %}
