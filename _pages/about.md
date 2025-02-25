@@ -10,9 +10,7 @@ redirect_from:
 ## Hi! :smile:  I am Mars
 
 ### There are a couple of reasons why I use this name. First my name sounds like Mars in my language and second my characteristic is similar to person who comes from Mars. This is because I always try to change paradigm and system. Currently, I am focusing on robotics.
-
 ### Thank you for reading my introduction. I hope today will be another good day for you.
-<br/>
 <br/>
 <br/>
 <br/>
