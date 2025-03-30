@@ -13,8 +13,8 @@ This is a plan of updating for projects from courses. These are categorized by s
 | [IMDL](https://mars-hss.github.io/course-project/imdl) | Mechatronics, Sensors | Building robots from scrach. Sensors / Acturators / Integration HW and SW | Mid of Januaray | DONE |
 | [Learning](https://mars-hss.github.io/course-project/learning) | Machine Learning and Reinforcement Learning | Learning from the Human brain / an application of reinforcement learning | Mid of Januaray | DONE |
 | [Grasping](https://mars-hss.github.io/course-project/grasping) | Robotic hands | Focusing on robotic hands and control | Mid of February | DONE |
-| Manipulation | Kinematics and Dynamics | Focusing on a robotic arm | Mid of March | On progress |
-| Contact | Optimal Control | Control robots with contact-rich environments | Mid of April |  |
-| Walking | Bipedal and Quadrupedal mechanism | Dynamics of legged robotics | End of April |  |
-| Navigation | ROS Navigation Stack and Motion Planning | Implementing ROS Nav and control algorithm | Mid of May |  |
-| Thesis | Imitation Learning | combining optimal control and deep reinforcement learning | End of May |  |
+| Manipulation | Kinematics and Dynamics | Focusing on a robotic arm | End of April | On progress |
+| Contact | Optimal Control | Control robots with contact-rich environments | Mid of May | On progress |
+| Walking | Bipedal and Quadrupedal mechanism | Dynamics of legged robotics | End of May |  |
+| Navigation | ROS Navigation Stack and Motion Planning | Implementing ROS Nav and control algorithm | Mid of June |  |
+| Thesis | Imitation Learning | combining optimal control and deep reinforcement learning | End of June |  |
