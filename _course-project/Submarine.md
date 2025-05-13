@@ -14,9 +14,9 @@ sidebar:
 The course handled basics of robotics with an application.
    
 ### PID Control
-PID(Proportional - Integral - Derivative)
-$$ u(t) = K_p e(t) + K_i \int e(t) dt + K_d \frac{de(t)}{dt} $$
-$u(t)$: Input of control, $e(t)$: Error between current and desired value(current - desired) 
+PID(Proportional - Integral - Derivative)   
+$$ u(t) = K_p e(t) + K_i \int e(t) dt + K_d \frac{de(t)}{dt} $$   
+$$ u(t) $$: Input of control, $$ e(t) $$: Error between current and desired value(current - desired) 
 
 Using PID control, I control a depth of a submarine robot.
 {% include figure.html url="true" img="images/submarine/depth_control.gif" %}
