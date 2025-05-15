@@ -197,7 +197,7 @@ figure {
   img,
   iframe,
   .fluid-width-video-wrapper {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
   }
 
   img {
@@ -245,7 +245,7 @@ figcaption {
   color: mix(#fff, $text-color, 25%);
   font-family: $caption-font-family;
   font-size: $type-size-6;
-  text-align: left;
+  text-align: center;
 
   a {
     color: inherit;
