@@ -14,8 +14,8 @@ This is a plan of updating for projects from courses. These are categorized by s
 | [Learning](https://mars-hss.github.io/course-project/learning) | Machine Learning and Reinforcement Learning | Learning from the Human brain / an application of reinforcement learning | Mid of Januaray | DONE |
 | [Grasping](https://mars-hss.github.io/course-project/grasping) | Robotic hands | Focusing on robotic hands and control | Mid of February | DONE |
 | [Submarine](https://mars-hss.github.io/course-project/submarine) | Control of submarine robot | Basic control and vision(YOLO) for submarine | End of May | On progress |
-| Manipulation | Kinematics and Dynamics | Focusing on a robotic arm | Mid of June | On progress |
+| [Manipulation](https://mars-hss.github.io/course-project/manipulation) | Kinematics and Dynamics | Focusing on a robotic arm | Mid of June | On progress |
 | Contact | Optimal Control | Control robots with contact-rich environments | Mid of June |  |
-| Walking | Bipedal and Quadrupedal mechanism | Dynamics of legged robotics | End of May |  |
-| Navigation | ROS Navigation Stack and Motion Planning | Implementing ROS Nav and control algorithm | Mid of June |  |
-| Thesis | Imitation Learning | combining optimal control and deep reinforcement learning | End of June |  |
+| Walking | Bipedal and Quadrupedal mechanism | Dynamics of legged robotics | End of June |  |
+| Navigation | ROS Navigation Stack and Motion Planning | Implementing ROS Nav and control algorithm | Mid of July |  |
+| Thesis | Imitation Learning | combining optimal control and deep reinforcement learning | End of July |  |
