@@ -46,15 +46,6 @@ imdl2_robot:
     - url: images/imdl/imdl2_robot.png
       image_path: images/imdl/imdl2_robot.png
       alt: Robot Design
-imdl2_bldc:
-    - url: images/imdl/operating_bldc.gif
-      image_path: images/imdl/operating_bldc.gif
-      alt: Operating BLDC
-      caption: https://www.renesas.com/en/support/engineer-school/brushless-dc-motor-01-overview
-    - url: images/imdl/imdl2_bldc_diagram.avif
-      image_path: images/imdl/imdl2_bldc_diagram.avif
-      alt: Timing Diagram
-      caption: https://microchip.my.site.com/s/article/Commutation-Logic-for-Brushless-DC--BLDC--Motor-Control
 ---
 ## Intelligent Machine Design Lab
 
@@ -102,9 +93,11 @@ stateDiagram
 
 **From IMDL2, we focused on learning BLDC with hall sensors, EtherCAT, and PCB Design.**
 ### BLDC with hall sensors
-{% include figure.html url="true" img="images/imdl/bldc_structure.png" caption="https://www.ablic.com/en/semicon/applications/bldc-motor/" %}
+{% include figure.html url="true" img="images/imdl/bldc_structure.png" caption="[ABLIC](https://www.ablic.com/en/semicon/applications/bldc-motor/)" %}
 
-{% include gallery id='imdl2_bldc' %}
+{% include figure.html url="true" img="images/imdl/operating_bldc.gif" caption="[RENESAS](https://www.renesas.com/en/support/engineer-school/brushless-dc-motor-01-overview)" %}
+{% include figure.html url="true" img="images/imdl/imdl2_bldc_diagram.avif" caption="[Microchip](https://microchip.my.site.com/s/article/Commutation-Logic-for-Brushless-DC--BLDC--Motor-Control)" %}
+
 Using above logic, design firmware for BLDC controller. We designed also firmware from understanding CAN bus for EtherCAT using LAN9252.
 
 

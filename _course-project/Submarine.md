@@ -26,10 +26,18 @@ Using yolo, we can recognize a diver in a camera image.
 {% include figure.html url="true" img="images/submarine/diver_detection.png" %}
 
 ### Fuzzy Logic Control
+<<<<<<< HEAD
 {% include figure.html url="true" img="images/submarine/fuzzy_logic.png" caption="[Wikipeida](https://en.wikipedia.org/wiki/Fuzzy_control_system)" %}
 
 
 ### Kalman Filter
 {% include figure.html url="true" img="images/submarine/Basic_concept_of_Kalman_filtering.png" caption="[Wikipeida](https://en.wikipedia.org/wiki/Kalman_filter)" %}
+=======
+{% include figure.html url="true" img="images/submarine/fuzzy_logic.png" caption="[Wikipeida Fuzzy control system](https://en.wikipedia.org/wiki/Fuzzy_control_system)" %}
+
+
+### Kalman Filter
+{% include figure.html url="true" img="images/submarine/Basic_concept_of_Kalman_filtering.svg" caption="[Wikipeida Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter)" %}
+>>>>>>> efcf60e (update cpations imdl and submarine)
 
 
