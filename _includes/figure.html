@@ -14,6 +14,7 @@
           height="{% if include.height %}{{ include.height }}{% endif %}" >
   {% endif %}
   {% if include.caption %}
-        <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+     <br/>
+     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
 </figure>
