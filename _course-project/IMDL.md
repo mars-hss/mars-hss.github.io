@@ -95,8 +95,8 @@ stateDiagram
 ### BLDC with hall sensors
 {% include figure.html url="true" img="images/imdl/bldc_structure.png" caption="[ABLIC](https://www.ablic.com/en/semicon/applications/bldc-motor/)" %}
 
-{% include figure.html url="true" img="images/imdl/operating_bldc.gif" caption="[RENESAS](https://www.renesas.com/en/support/engineer-school/brushless-dc-motor-01-overview)" %}
-{% include figure.html url="true" img="images/imdl/imdl2_bldc_diagram.avif" caption="[Microchip](https://microchip.my.site.com/s/article/Commutation-Logic-for-Brushless-DC--BLDC--Motor-Control)" %}
+{% include figure.html url="true" img="images/imdl/operating_bldc.gif" caption="[RENESAS](https://www.renesas.com/en/support/engineer-school/brushless-dc-motor-01-overview)" width="95%" %}
+{% include figure.html url="true" img="images/imdl/imdl2_bldc_diagram.avif" caption="[Microchip](https://microchip.my.site.com/s/article/Commutation-Logic-for-Brushless-DC--BLDC--Motor-Control)" width="100%" %}
 
 Using above logic, design firmware for BLDC controller. We designed also firmware from understanding CAN bus for EtherCAT using LAN9252.
 
