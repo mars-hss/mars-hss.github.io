@@ -26,7 +26,7 @@ Using yolo, we can recognize a diver in a camera image.
 {% include figure.html url="true" img="images/submarine/diver_detection.png" %}
 
 ### Fuzzy Logic Control
-{% include figure.html url="true" img="images/submarine/fuzzy_logic.png" %}
+{% include figure.html url="true" img="images/submarine/fuzzy_logic.png" caption="https://en.wikipedia.org/wiki/Fuzzy_control_system" %}
 
 
 ### Kalman Filter
