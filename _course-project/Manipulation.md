@@ -10,6 +10,20 @@ sidebar:
       text: Advanced Robot Control and Learning
     - title: Kinematics and Dynamics
       text: Multi-sensory Based Robot Dynamic manipulation
+msbrdm_space:
+    - url: images/manipulation/ur10_taskspace.png
+      image_path: images/manipulation/ur10_taskspace.png
+      alt: Taskspace
+    - url: images/manipulation/ur10_singularity.png
+      image_path: images/manipulation/ur10_singularity.png
+      alt: Singularity
+msbrdm_ellipsoid:
+    - url: images/manipulation/control_ellipsoid.png
+      image_path: images/manipulation/control_ellipsoid.png
+      alt: Normal Control
+    - url: images/manipulation/control_singularity.png
+      image_path: images/manipulation/control_singularity.png
+      alt: Singularity
 ---
 
 **Both courses dealt with kinematics and dynamics of a robot and control theory.**   
@@ -24,7 +38,12 @@ Robothon had two tasks. First task is self collision and second one is obstacle 
    
 ## Multi-sensory Based Robot Dynamic manipulation(MSBRDM)
 MSBRDM giave more pratical tutorials by each section from homogeneous transform matrix(Rotation and Translation) to dynamics and control.   
-The firt part is kinematics. Using homogeneous transfrom, 
+The firt part is kinematics. Using homogeneous transfrom, publish TF for UR10 from DH parameters(3 DoF from 6 DoF).   
+{% include gallery id='msbrdm_sapce' %}
+{% include gallery id='msbrdm_ellipsoid' %}
+<figcaption>Images from MSBRDM tutorial slide</figcaption>
+
+The second part is dynamics.
 
 {% include figure.html url="true" img="images/manipulation/Tau_0.gif" caption="Tau is zero for UR10" %}
 <!-- ## Project(MSBRDM) -  -->
