@@ -6,10 +6,10 @@ header:
 permalink: /course-project/learning
 collection: course-project
 sidebar:
-    - title: Overal Learning Method
-      text: Biologically-Inspired Learning for Humanoid Robots(BiLHR)
-    - title: Reinforcement Learning
-      text: Applied Reinforcement Learning(ARL)
+    - title: Biologically-Inspired Learning for Humanoid Robots(BiLHR)
+      text: Overal Learning Method
+    - title: Applied Reinforcement Learning(ARL)
+      text: Reinforcement Learning
 learning:
     - url: images/learning/learning.png
       image_path: images/learning/learning.png
