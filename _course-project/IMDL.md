@@ -120,12 +120,16 @@ flowchart LR
   classDef white fill: #fff, stroke: #000, stroke-width: 2.5px
 </div>
 {% include gallery id='imdl2_act' %}
+<figcaption>First and Seond joint acturator design from CAD</figcaption>
 {% include gallery id='imdl2_pcb' %}
+<figcaption>First and Seond PCB design from ECAD</figcaption>
     
 
 
 **Gripper and Robot**
 {% include gallery id='imdl2_robot' %}
+<figcaption>End-effector and an assembeled whold robot from CAD</figcaption>
 
 **Result Video**
 {% include figure.html url="true" img="images/imdl/imdl2_result.gif" %}
+<figcaption>Pick and place an object from cabinet to bottom.</figcaption>
