@@ -47,7 +47,7 @@ Using homogeneous transfrom, publish TF for UR10 from DH parameters(3 DoFs from 
 {% include gallery id='msbrdm_ellipsoid' %}
 <figcaption>Manipulability Ellipsoid from MSBRDM tutorial slide</figcaption>
 
-**The second part is dynamics.**
+**The second part is dynamics.**   
 Formulate a dynamic equation from centor of Mass and lengths of links for each joint(3 DoFs).
 {% include figure.html url="true" img="images/manipulation/Tau_0.gif" caption="Tau is zero for UR10" %}
 
