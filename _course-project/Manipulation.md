@@ -42,8 +42,9 @@ MSBRDM giave more pratical tutorials by each section from homogeneous transform 
 Using homogeneous transfrom, publish TF for UR10 from DH parameters(3 DoF from 6 DoF).   
 
 {% include gallery id='msbrdm_space' %}
+<figcaption>Task space and Singularities for UR10 from MSBRDM tutorial slide</figcaption>
 {% include gallery id='msbrdm_ellipsoid' %}
-<figcaption>Images from MSBRDM tutorial slide</figcaption>
+<figcaption>Manipulability Ellipsoid from MSBRDM tutorial slide</figcaption>
 
 **The second part is dynamics.**
 
