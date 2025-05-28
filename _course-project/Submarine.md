@@ -32,4 +32,4 @@ Using yolo, we can recognize a diver in a camera image.
 ### Kalman Filter
 {% include figure.html url="true" img="images/submarine/Basic_concept_of_Kalman_filtering.svg" caption="[Wikipeida Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter)" %}
 
-
+Implementing the theory above, sensor fusion between vision and sonar to track the diver.
