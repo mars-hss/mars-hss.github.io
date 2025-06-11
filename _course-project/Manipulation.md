@@ -24,6 +24,14 @@ msbrdm_ellipsoid:
     - url: images/manipulation/control_singularity.png
       image_path: images/manipulation/control_singularity.png
       alt: Singularity
+msbrdm_OpTask:
+    - url: images/manipulation/OpTask.png
+      image_path: images/manipulation/OpTask.png
+      alt: Trajectory of end-effector
+    - url: images/manipulation/OpTask.gif
+      image_path: images/manipulation/OpTask.gif
+      alt: Rviz video
+
 ---
 
 **Both courses dealt with kinematics and dynamics of a robot and control theory.**   
@@ -51,6 +59,5 @@ Using homogeneous transfrom, publish TF for UR10 from DH parameters(3 DoFs from 
 Formulate a dynamic equation from centor of Mass and lengths of links for each joint(3 DoFs).
 {% include figure.html url="true" img="images/manipulation/Tau_0.gif" caption="Tau is zero for UR10" %}
 
-
-
+{% include gallery id='msbrdm_OpTask' %}
 <!-- ## Project(MSBRDM) -  -->
