@@ -23,3 +23,5 @@ Learn linear inverted pendulum model(LIPM) for walking strategy.
 Design MPC from given a tajectory for foot steps.
 {% include figure.html url="true" img="images/walking/3d_lipm.png" %}
 
+**Walking video**
+{% include figure.html url="true" img="images/walking/talos_walking.gif" %}
