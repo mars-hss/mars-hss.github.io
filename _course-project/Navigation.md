@@ -16,14 +16,14 @@ nav_robots:
     - url: images/navigation/robotino.jpg
       image_path: images/navigation/robotino.jpg
 nav_multi:
-    - url: images/navigation/t4_nam_num.png
-      image_path: images/navigation/t4_nam_num.png
+    - url: images/navigation/t4_nav_num.png
+      image_path: images/navigation/t4_nav_num.png
     - url: images/navigation/t1r1_obs.png
       image_path: images/navigation/t1r1_obs.png
 ---
 
 ## Navigation Stack
-{% include figure.html url="true" img="images/navigation/nav2_concet.png" caption="Concept of Nav 2" %}
+{% include figure.html url="true" img="images/navigation/nav2_concept.png" caption="Concept of Nav 2" %}
 
 
 ## Implement Reachablable sets for montionb planning
