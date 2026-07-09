@@ -17,6 +17,6 @@ This is a plan of updating for projects from courses. These are categorized by s
 | [Walking](https://mars-hss.github.io/course-project/walking) | Bipedal and Quadrupedal mechanism | Dynamics of legged robotics | End of June | Done |
 | [Manipulation](https://mars-hss.github.io/course-project/manipulation) | Kinematics and Dynamics | Focusing on a robotic arm | - | On progress |
 | [Navigation](https://mars-hss.github.io/course-project/navigation) | ROS Navigation Stack and Motion Planning | Implementing ROS Nav and control algorithm | - | On progress |
-<!-- | Thesis | Imitation Learning | combining optimal control and deep reinforcement learning | - |  | -->
 
+<!-- | Thesis | Imitation Learning | combining optimal control and deep reinforcement learning | - |  | -->
 <!--| Contact | Optimal Control | Control robots with contact-rich environments | - |  |-->
